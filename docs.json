@@ -15,7 +15,7 @@
     "tabs": [
       {
         "tab": "Changelog",
-        "pages": ["api", "dashboard"]
+        "pages": ["index", "dashboard"]
       }
     ],
     "global": {}
