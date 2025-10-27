@@ -12,12 +12,7 @@
   },
   "favicon": "/favicon-1.svg",
   "navigation": {
-    "tabs": [
-      {
-        "tab": "Changelog",
-        "pages": ["index", "dashboard"]
-      }
-    ],
+    "pages": ["index", "dashboard"],
     "global": {}
   },
   "logo": {
