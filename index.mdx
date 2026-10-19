@@ -5,9 +5,20 @@ icon: "code"
 rss: true
 ---
 
+<Update label="October 2026" description="" tags={["API v2", "Documentation", "Authentication"]}>
+#### Greip API v2
+
+Greip API **v2** is available at `https://v2.greipapi.com` and is the **recommended** version for new integrations. Your existing API key and plan work on v2. **API v1** remains supported on `https://greipapi.com` for existing integrations.
+
+Compared with v1, v2 uses a dedicated host, updated URL paths, Bearer-only authentication, and a consistent JSON response format (`snake_case` fields, a boolean `success` flag, and `execution_ms`). Request and response shapes for geo, scoring, and related endpoints are aligned with the v2 API reference.
+
+For endpoint-by-endpoint differences, field mappings, and an upgrade checklist, see the **[Migrate from API v1 to v2](https://docs.greip.io/migration)** guide on [docs.greip.io](https://docs.greip.io). The API reference there defaults to **API v2**.
+
+</Update>
+
 <Update label="January 2026" description="" tags={["Domain Lookup", "Email Scoring"]}>
-- `is_disposable` field added to [Domain Lookup API](https://docs.greip.io/api-reference/endpoint/data-lookup/domain) response, indicating whether a domain is associated with disposable email services. You'll also find this field in the [Email Scoring API](https://docs.greip.io/api-reference/endpoint/scoring/email) response.
-- `is_forwarding` field added to [Domain Lookup API](https://docs.greip.io/api-reference/endpoint/data-lookup/domain) response, indicating whether a domain is associated with email forwarding services. This field is also included in the [Email Scoring API](https://docs.greip.io/api-reference/endpoint/scoring/email) response.
+- `is_disposable` field added to [Domain Lookup API](https://docs.greip.io/api-reference/v2/endpoint/data-lookup/domain) response, indicating whether a domain is associated with disposable email services. You'll also find this field in the [Email Scoring API](https://docs.greip.io/api-reference/v2/endpoint/scoring/email) response.
+- `is_forwarding` field added to [Domain Lookup API](https://docs.greip.io/api-reference/v2/endpoint/data-lookup/domain) response, indicating whether a domain is associated with email forwarding services. This field is also included in the [Email Scoring API](https://docs.greip.io/api-reference/v2/endpoint/scoring/email) response.
 
 </Update>
 

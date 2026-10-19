@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "almond",
+  "theme": "sequoia",
   "name": "Greip Changelog",
   "colors": {
     "primary": "#008CFF",
