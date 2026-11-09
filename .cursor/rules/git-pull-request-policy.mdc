@@ -1,0 +1,11 @@
+---
+description: GitHub PR creation and merge policy for the agent
+alwaysApply: true
+---
+
+# Git pull requests (agent)
+
+When the user asks you to create a pull request:
+
+- Create it **open** (ready for review). Use `gh pr create` **without** `--draft`. If a PR was created as draft by mistake, run `gh pr ready` (or equivalent) unless the user explicitly asked for a draft.
+- **Do not merge** any pull request you created or pushed. Never run `gh pr merge`, auto-merge, or squash-merge on your own PRs unless the user explicitly tells you to merge that specific PR.
