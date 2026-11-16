@@ -5,14 +5,22 @@ icon: "browser"
 rss: true
 ---
 
-<Update label="November 15, 2026" description="" tags={["Customizations", "Security"]}>
-#### Plan-based authorized hosts limits
+<Update label="November 2026" description="">
+#### Event disposition workflow
 
-Authorized hosts limits now follow your subscription plan: **Standard** accounts can whitelist up to **5** domain names or server IPs, and **Premium** and **Pay-as-you-go** accounts can whitelist up to **40**. Limits are enforced when you save hosts in **Settings → Authorized hosts** and on the API.
+On Events & Alerts, triage detections with disposition labels such as New, Reviewed, False positive, and Escalated. Filter and sort by disposition, update status from the event drawer, and see who last changed a disposition when your team shares the inbox.
+
+#### Webhooks: delivery logs and verification
+
+Settings → Webhooks (account owners) now includes delivery history for each endpoint, optional Bearer authorization on outbound requests, and Send test ping. New URLs are verified with a live POST before they are saved. Click a webhook row for logs; share deep links using the page URL. [Learn more in the docs](https://docs.greip.io/knowledge-base/account-management/webhooks).
+
+#### Layout and navigation
+
+Shell, list pages, Settings (General, Integrations, Authorized hosts, and Webhooks tabs), header search, and monitoring or utility tables now share the same studio patterns. On Events & Alerts, the details drawer keeps disposition and export actions in the header, and the page URL includes `event_id` for bookmarking or sharing a specific event.
 
 </Update>
 
-<Update label="September 12, 2026" description="" tags={["Blacklists", "Custom Rules", "Experience"]}>
+<Update label="September 2026" description="">
 #### 1. Smarter Blacklist Management
 
 Blacklists are easier to manage day to day. Turn any blacklist on or off without deleting it, **edit existing entries**, and use **bulk actions** to delete or move multiple items to another list of the same type. Blacklist detail pages also include breadcrumbs so you can navigate back quickly.
@@ -25,32 +33,29 @@ Custom rules now have an on/off toggle in the table, so you can pause a rule tem
 
 Clicking an event now opens its details in a side drawer instead of a modal, making it easier to review events while keeping context on the events page. Event type icons have also been corrected for clearer identification.
 
-</Update>
-
-<Update label="September 2026" description="" tags={["Experience"]}>
-#### 1. Refreshed Dashboard Design
+#### 4. Refreshed Dashboard Design
 
 We've redesigned the Greip Dashboard with a cleaner, more consistent interface across every page. Navigation, spacing, typography, and colors are now unified so the product feels faster to scan and easier to use in both light and dark mode.
 
-#### 2. Improved Sidebar & Mobile Experience
+#### 5. Improved Sidebar & Mobile Experience
 
 The sidebar has been rebuilt for clearer section grouping, smoother scrolling, and better behavior on smaller screens. Mobile layouts now adapt more reliably, with drawers and panels that stay out of the way until you need them.
 
-#### 3. Unified Modals, Drawers & Dialogs
+#### 6. Unified Modals, Drawers & Dialogs
 
 Modals, drawers, and confirmation dialogs now share the same layout and styling. Event details, filters, custom rules, integrations, and account settings all open in consistent surfaces that match the rest of the dashboard.
 
-#### 4. System Theme Support
+#### 7. System Theme Support
 
 The dashboard now follows your system light or dark preference automatically, with refined dark-mode contrast and form controls across tables, charts, settings, and billing pages.
 
-#### 5. Updated Home & Auth Experience
+#### 8. Updated Home & Auth Experience
 
 The home page has a refreshed layout with clearer quick links and an insights overview at the top. Sign-in, registration, and password flows also received a visual refresh with tighter layouts and improved readability.
 
 </Update>
 
-<Update label="September 2025" description="" tags={["Integrations", "Experience"]}>
+<Update label="September 2025" description="">
 #### 1. New Integration: N8N!
 
 Now you can integrate Greip Dashboard with N8N, an open-source workflow automation tool. This integration allows you to automate tasks and workflows using Greip's fraud prevention services seamlessly.
@@ -63,7 +68,7 @@ We've refreshed the design of our email communications to enhance readability an
 
 </Update>
 
-<Update label="July 2025" description="" tags={["Experience", "No-Code"]}>
+<Update label="July 2025" description="">
 #### 1. Survey on Sign-up to Help you Setup Faster!
 
 To help you get started quickly, we've added a short survey during the sign-up process. This will allow us to tailor your Greip Dashboard experience based on your specific needs and use cases.
@@ -78,7 +83,7 @@ We've added a new and easy way to cancel your subscriptions directly from the Gr
 
 </Update>
 
-<Update label="June 2025" description="" tags={["Authentication", "Experience"]}>
+<Update label="June 2025" description="">
 #### 1. Sign-up with Apple!
 
 You can now sign up for Greip Dashboard using your Apple ID, providing a quick and secure way to create your account.
@@ -93,7 +98,7 @@ You can now access live chat support directly from the Greip Dashboard. Get inst
 
 </Update>
 
-<Update label="May 2025" description="" tags={["Integrations", "Customizations"]}>
+<Update label="May 2025" description="">
 #### 1. New Integration: viaSocket!
 
 With our new integration with viaSocket, an automation service, you can connect your Greip Dashboard to automate workflows, trigger actions from real-time data streams, and orchestrate responses for faster, more effective fraud prevention.
@@ -104,14 +109,14 @@ We've increased the limit of Authorized Hosts you can add to your Greip Dashboar
 
 </Update>
 
-<Update label="April 2025" description="" tags={["Team Management"]}>
+<Update label="April 2025" description="">
 #### User Management: Invite and Manage Team Members!
 
 With our new User Management feature, you can now invite team members to collaborate on your Greip Dashboard account. This allows for better teamwork and shared access to fraud prevention tools.
 
 </Update>
 
-<Update label="March 2025" description="" tags={["Invoicing", "Experience"]}>
+<Update label="March 2025" description="">
 #### 1. Solana Payments Now Supported!
 
 You can now pay your invoices using Solana, providing you with more flexibility and options for your transactions.
@@ -122,7 +127,7 @@ Introducing Tours, a new way to explore and learn about the latest features in t
 
 </Update>
 
-<Update label="January 2025" description="" tags={["Customizations"]}>
+<Update label="January 2025" description="">
 #### 1. Custom Rules Just Released! 🎉
 
 A game-changing feature designed to give you complete control over your API interactions!
@@ -149,7 +154,7 @@ Blacklists allow you to block specific IP addresses, emails, email domains, cust
 
 </Update>
 
-<Update label="December 2024" description="" tags={["No-Code", "Experience"]}>
+<Update label="December 2024" description="">
 #### Playground: No-Code Tools for Greip Services!
 
 We're thrilled to announce the launch of Playground in the Greip Dashboard, a game-changer for those looking to explore advanced fraud prevention tools without writing a single line of code!
@@ -164,7 +169,7 @@ Imagine blocking a payment from a flagged email or triggering custom actions bas
 
 </Update>
 
-<Update label="October 2024" description="" tags={["Integrations", "Experience"]}>
+<Update label="October 2024" description="">
 #### 1. New Integration: Telegram!
 
 You can now integrate Greip Dashboard with Telegram Bot, allowing you to receive real-time notifications and updates directly from your Telegram bot. Stay informed about your fraud prevention activities on the go!
@@ -195,7 +200,7 @@ You can now export your event data to a CSV file directly from the Greip Dashboa
 
 </Update>
 
-<Update label="September 2024" description="" tags={["Experience", "Invoicing", "Integrations", "Authentication"]}>
+<Update label="September 2024" description="">
 #### 1. Design Updates
 
 We've made several design updates to the Greip Dashboard to enhance user experience and improve navigation.
